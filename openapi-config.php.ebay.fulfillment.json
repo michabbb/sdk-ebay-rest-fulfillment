@@ -1,0 +1,14 @@
+{
+  "packageName": "sdk-ebay-rest-fulfillment",
+  "composerVendorName": "macropage",
+  "composerProjectName": "sdk-ebay-rest-fulfillment",
+  "artifactVersion": "2.3.2",
+  "invokerPackage": "macropage\\SDKs\\ebay\\rest\\fulfillment",
+  "modelPackage": "Model",
+  "apiPackage": "API",
+  "variableNamingConvention": "camelCase",
+  "srcBasePath": "src",
+  "gitUserId": "macropage",
+  "gitRepoId": "sdk-ebay-rest-fulfillment",
+  "validateSpec": false
+}
