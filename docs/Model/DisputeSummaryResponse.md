@@ -1,6 +1,7 @@
-# DisputeSummaryResponse
+# # DisputeSummaryResponse
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **paymentDisputeSummaries** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\PaymentDisputeSummary[]**](PaymentDisputeSummary.md) | Each payment dispute that matches the input criteria is returned under this array. If no payment disputes are found, an empty array is returned. | [optional] 
@@ -11,6 +12,6 @@ Name | Type | Description | Notes
 **limit** | **int** | This value shows the maximum number of payment disputes that will appear on one page of the result set. The limit value can be passed in as a query parameter in the request, or if it is not used, it defaults to 200. If the value in the total field exceeds this limit value, there are multiple pages in the current result set. Min: 1; Max: 200; Default: 200 | [optional] 
 **offset** | **int** | This integer value indicates the number of payment disputes skipped before listing the first payment dispute from the result set. The offset value can be passed in as a query parameter in the request, or if it is not used, it defaults to 0 and the first payment dispute of the result set is shown at the top of the response. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

@@ -1,6 +1,7 @@
-# PaymentDispute
+# # PaymentDispute
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **paymentDisputeId** | **string** | This is the unique identifier of the payment dispute. This is the same identifier that is pass in to the call URI. This identifier is automatically created by eBay once the payment dispute comes into the eBay managed payments system. | [optional] 
@@ -22,6 +23,6 @@ Name | Type | Description | Notes
 **buyerProvided** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\InfoFromBuyer**](InfoFromBuyer.md) |  | [optional] 
 **buyerUsername** | **string** | This is the eBay user ID of the buyer that initiated the payment dispute. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

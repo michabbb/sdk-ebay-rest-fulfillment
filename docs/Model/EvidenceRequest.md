@@ -1,6 +1,7 @@
-# EvidenceRequest
+# # EvidenceRequest
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **evidenceId** | **string** | Unique identifier of the evidential file set. Potentially, each evidential file set can have more than one file, that is why there is this file set identifier, and then an identifier for each file within this file set. | [optional] 
@@ -9,6 +10,6 @@ Name | Type | Description | Notes
 **lineItems** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\OrderLineItems[]**](OrderLineItems.md) | This array shows one or more order line items associated with the evidential document has been provided. | [optional] 
 **evidenceType** | **string** | This enumeration value shows the type of evidential document provided. For implementation help, refer to &lt;a href&#x3D;&#39;https://developer.ebay.com/devzone/rest/api-ref/fulfillment/types/EvidenceTypeEnum.html&#39;&gt;eBay API documentation&lt;/a&gt; | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

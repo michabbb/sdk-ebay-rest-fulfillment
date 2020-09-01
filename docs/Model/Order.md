@@ -1,6 +1,7 @@
-# Order
+# # Order
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **buyer** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\Buyer**](Buyer.md) |  | [optional] 
@@ -21,6 +22,6 @@ Name | Type | Description | Notes
 **salesRecordReference** | **string** | An eBay-generated identifier that is used to identify and manage orders through the Selling Manager and Selling Manager Pro tools. This order identifier can also be found on the Orders grid page and in the Sales Record pages in Seller Hub. A salesRecordReference number is only generated and returned at the order level, and not at the order line item level. In cases where the seller does not have a Selling Manager or Selling Manager Pro subscription nor access to Seller Hub, this field may not be returned. | [optional] 
 **sellerId** | **string** | The unique eBay user ID of the seller who sold the order. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

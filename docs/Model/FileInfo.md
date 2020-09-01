@@ -1,6 +1,7 @@
-# FileInfo
+# # FileInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **fileId** | **string** | The unique identifier of the evidence file. | [optional] 
@@ -8,6 +9,6 @@ Name | Type | Description | Notes
 **name** | **string** | The seller-provided name of the evidence file. | [optional] 
 **fileType** | **string** | The type of file uploaded. Supported file extensions are .JPEG, .JPG, and .PNG., and maximum file size allowed is 1.5 MB. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

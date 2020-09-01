@@ -1,6 +1,7 @@
-# OrderSearchPagedCollection
+# # OrderSearchPagedCollection
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **href** | **string** | The URI of the getOrders call request that produced the current page of the result set. | [optional] 
@@ -12,6 +13,6 @@ Name | Type | Description | Notes
 **total** | **int** | The total number of orders in the results set based on the current input criteria. Note: If no orders are found, this field is returned with a value of 0. | [optional] 
 **warnings** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\Error[]**](Error.md) | This array is returned if one or more errors or warnings occur with the call request. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

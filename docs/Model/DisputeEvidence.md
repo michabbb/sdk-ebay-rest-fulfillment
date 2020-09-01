@@ -1,6 +1,7 @@
-# DisputeEvidence
+# # DisputeEvidence
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **evidenceId** | **string** | Unique identifier of the evidential file set. Potentially, each evidential file set can have more than one file, that is why there is this file set identifier, and then an identifier for each file within this file set. | [optional] 
@@ -12,6 +13,6 @@ Name | Type | Description | Notes
 **evidenceType** | **string** | The enumeration value returned in this field indicates the type of evidence provided. Two examples include an image file if the dispute reason is SIGNIFICANTLY_NOT_AS_DESCRIBED, or shipment tracking information if the dispute reason is ITEM_NOT_RECEIVED. For implementation help, refer to &lt;a href&#x3D;&#39;https://developer.ebay.com/devzone/rest/api-ref/fulfillment/types/EvidenceTypeEnum.html&#39;&gt;eBay API documentation&lt;/a&gt; | [optional] 
 **files** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\FileInfo[]**](FileInfo.md) | This array shows the name, ID, file type, and upload date for each provided file. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

@@ -1,6 +1,7 @@
-# ShippingStep
+# # ShippingStep
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **shippingCarrierCode** | **string** | The unique identifier of the shipping carrier being used to ship the line item. Note: The Trading API&#39;s GeteBayDetails call can be used to retrieve the latest shipping carrier and shipping service option enumeration values. | [optional] 
@@ -8,6 +9,6 @@ Name | Type | Description | Notes
 **shipTo** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\ExtendedContact**](ExtendedContact.md) |  | [optional] 
 **shipToReferenceId** | **string** | This is the unique identifer of the Global Shipping Program (GSP) shipment. This field is only returned if the line item is being shipped via GSP (the value of the fulfillmentStartInstructions.ebaySupportedFulfillment field will be true. The international shipping provider uses the shipToReferenceId value as the primary reference number to retrieve the relevant details about the buyer, the order, and the fulfillment, so the shipment can be completed. Sellers must include this value on the shipping label immediately above the street address of the international shipping provider. Example: &amp;quot;Reference #1234567890123456&amp;quot; Note: This value is the same as the ShipToAddress.ReferenceID value returned by the Trading API&#39;s GetOrders call. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

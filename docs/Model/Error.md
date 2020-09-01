@@ -1,6 +1,7 @@
-# Error
+# # Error
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **category** | **string** | The context or source of this error or warning. | [optional] 
@@ -13,6 +14,6 @@ Name | Type | Description | Notes
 **parameters** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\ErrorParameter[]**](ErrorParameter.md) | Contains a list of name/value pairs that provide additional information concerning this error or warning. Each item in the list is an input parameter that contributed to the error or warning condition. | [optional] 
 **subdomain** | **string** | The name of the domain&#39;s subsystem or subdivision. For example, fulfillment is a subdomain in the sell domain. | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

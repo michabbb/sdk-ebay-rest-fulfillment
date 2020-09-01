@@ -1,6 +1,7 @@
-# OrderRefund
+# # OrderRefund
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **amount** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\Amount**](Amount.md) |  | [optional] 
@@ -9,6 +10,6 @@ Name | Type | Description | Notes
 **refundReferenceId** | **string** | The eBay-generated unique identifier for the refund. This field is not returned until the refund has been issued. | [optional] 
 **refundStatus** | **string** | This enumeration value indicates the current status of the refund to the buyer. This container is always returned for each refund. For implementation help, refer to &lt;a href&#x3D;&#39;https://developer.ebay.com/devzone/rest/api-ref/fulfillment/types/RefundStatusEnum.html&#39;&gt;eBay API documentation&lt;/a&gt; | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

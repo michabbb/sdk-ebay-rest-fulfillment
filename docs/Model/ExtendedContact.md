@@ -1,6 +1,7 @@
-# ExtendedContact
+# # ExtendedContact
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **companyName** | **string** | The company name associated with the buyer or eBay shipping partner. This field is only returned if defined/applicable to the buyer or eBay shipping partner. | [optional] 
@@ -9,6 +10,6 @@ Name | Type | Description | Notes
 **fullName** | **string** | The full name of the buyer or eBay shipping partner. | [optional] 
 **primaryPhone** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\PhoneNumber**](PhoneNumber.md) |  | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

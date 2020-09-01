@@ -1,6 +1,7 @@
-# Payment
+# # Payment
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **amount** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\Amount**](Amount.md) |  | [optional] 
@@ -10,6 +11,6 @@ Name | Type | Description | Notes
 **paymentReferenceId** | **string** | This field shows the unique identifier of the buyer&#39;s payment for the order. | [optional] 
 **paymentStatus** | **string** | The enumeration value returned in this field indicates the status of the buyer&#39;s payment for the order. See the PaymentStatusEnum type definition for more information on the possible payment states. For implementation help, refer to &lt;a href&#x3D;&#39;https://developer.ebay.com/devzone/rest/api-ref/fulfillment/types/PaymentStatusEnum.html&#39;&gt;eBay API documentation&lt;/a&gt; | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 

@@ -1,6 +1,7 @@
-# FulfillmentStartInstruction
+# # FulfillmentStartInstruction
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **ebaySupportedFulfillment** | **bool** | This field is only returned if its value is true and indicates that the fulfillment will be shipped via eBay&#39;s Global Shipping Program. For more information, see the Global Shipping Program help topic. | [optional] 
@@ -11,6 +12,6 @@ Name | Type | Description | Notes
 **pickupStep** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\PickupStep**](PickupStep.md) |  | [optional] 
 **shippingStep** | [**\macropage\SDKs\ebay\rest\fulfillment\Model\ShippingStep**](ShippingStep.md) |  | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 
 
